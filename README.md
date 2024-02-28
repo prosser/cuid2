@@ -28,8 +28,11 @@ Func<string> createId = Cuid2.Init(
   length: 10,
   // A custom fingerprint for the host environment. This is used to help
   // prevent collisions when generating ids in a distributed system.
-  fingerprint: 'a-custom-host-fingerprint',
-});
+  fingerprint: "a-custom-host-fingerprint");
 
-Console.WriteLine($"{createId()} {createId()} {createId()}");
+int count = 3;
+while (count-- > 0)
+{
+    Console.WriteLine(createId());
+}
 ```
