@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cuid2", "src\Cuid2\Cuid2.csproj", "{6F234D3F-1252-45E9-BD59-643E6557659A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cuid2.UnitTests", "test\Cuid2.UnitTests\Cuid2.UnitTests.csproj", "{776809D0-920C-45E2-B82C-CC62382232A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F234D3F-1252-45E9-BD59-643E6557659A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F234D3F-1252-45E9-BD59-643E6557659A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F234D3F-1252-45E9-BD59-643E6557659A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F234D3F-1252-45E9-BD59-643E6557659A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{776809D0-920C-45E2-B82C-CC62382232A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776809D0-920C-45E2-B82C-CC62382232A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776809D0-920C-45E2-B82C-CC62382232A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776809D0-920C-45E2-B82C-CC62382232A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9563687-BA19-4AF6-8C52-F481121E6550}
+	EndGlobalSection
+EndGlobal
